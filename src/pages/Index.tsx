@@ -73,10 +73,10 @@ const Index = () => {
       >
         <Card className="w-[320px] sm:w-[380px] bg-card/60 backdrop-blur-md border-accent/10 shadow-lg shadow-accent/10">
           <CardHeader className="text-center pb-2">
-            <CardTitle className="text-4xl font-bold tracking-tight bg-gradient-to-r from-primary via-accent to-primary/80 bg-clip-text text-transparent">
+            <CardTitle className="text-4xl font-ustroke tracking-tight bg-gradient-to-r from-primary via-accent to-primary/80 bg-clip-text text-transparent">
               ORIGCRIME
             </CardTitle>
-            <CardDescription className="text-muted-foreground mt-2">
+            <CardDescription className="text-muted-foreground mt-2 font-ustroke">
               Официальный сайт канала
             </CardDescription>
           </CardHeader>
@@ -88,11 +88,11 @@ const Index = () => {
           <CardFooter className="flex flex-col gap-4">
             <Button 
               onClick={handleTelegramClick}
-              className="w-full py-6 text-lg font-medium bg-accent hover:bg-accent/90 transition-all shadow-md shadow-accent/20"
+              className="w-full py-6 text-lg font-ustroke font-medium bg-accent hover:bg-accent/90 transition-all shadow-md shadow-accent/20"
             >
               Перейти в Телеграм
             </Button>
-            <p className="text-sm text-muted-foreground text-center">
+            <p className="text-sm text-muted-foreground text-center font-ustroke">
               t.me/origcrime
             </p>
           </CardFooter>
